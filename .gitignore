@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local databases and database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and local editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
